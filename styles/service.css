@@ -35,11 +35,19 @@
   border-radius: 25% 10%;
   border: 1px solid #FDFAF6;
   margin-right: 50px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
 }
 
 .fish-seafood-box {
   margin-right: 0;
+}
+
+.fruits-veges-box:hover,
+.meats-box:hover,
+.fish-seafood-box:hover {
+  transform: scale(1.05);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .fruits-veges-img, 
